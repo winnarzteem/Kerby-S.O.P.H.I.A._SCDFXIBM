@@ -28,13 +28,24 @@ In such cases, either the Community First Responders (CFRs), a family member or 
 
 ### Points of data collection
 
-As shown in the architecture, there are 4 points of data collection. They can be further classified into "Utilities" and "Kitchen Activity".
+As shown in the architecture, there are 4 points of data collection. They can be further classified into "Utilities" and "Kitchen Activity". 
+
+#### Utilities
 
 Under the Utilities category, we will be observing and measuring Electricity, Gas and Water usage through IoTs. In fact, the option to have such measurements using a "smart meter" taken already exist in the market. (See: https://www.ema.gov.sg/Metering_Options.aspx) 
 
-Under the Kitchen Activity category, we will be observing and measuring Kitchen Activity through a Motion Sensor IoT. This is relevant because it help prevent fires related disasters in the household kitchen. The motion activity is to be used in tandem with the Gas usage data. If the gas is being utilized for 'x' amount of time and the motion sensor did not sense any movement in 'y' amount of time since the start of the gas usage, then an alarm will be triggered via IBM Watson Studio. This alarm will be sent to the chatbot via IBM Watson Assistant to alert the homeowner.
+![Smart Meter](.PNG)
 
-### Subsection 1.2
+Ideally, we would want to have IoTs that can measure usage from different appliances around the house for a more accurate representation of a typical behavior.
+
+#### Kitchen Activity
+
+Under the Kitchen Activity category, we will be observing and measuring Kitchen Activity through a Motion Sensor IoT. This is relevant because it help prevent fires related disasters in the household kitchen. The motion activity is to be used in tandem with the Gas usage data. 
+
+If the gas is being utilized for 'x' amount of time and the motion sensor did not sense any movement in 'y' amount of time since the start of the gas usage, then an alarm will be triggered via IBM Watson Studio. This alarm will be sent to the chatbot via IBM Watson Assistant to alert the homeowner.
+
+
+
 
 Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
 
