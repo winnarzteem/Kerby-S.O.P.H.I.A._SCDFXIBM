@@ -37,9 +37,11 @@ There are three main categories of points of data collection:
 
 #### Utilities
 
-Under the Utilities category, we will be observing and measuring Electricity, Gas and Water usage through IoTs. In fact, the option to have such measurements using a "smart meter" taken already exist in the market. (See: https://www.ema.gov.sg/Metering_Options.aspx) 
+Under the Utilities category, we will be observing and measuring Electricity, Gas and Water usage through IoTs. In fact, the option to have such measurements using a "smart meter" taken already exist in the market.  
+(See: https://www.ema.gov.sg/Metering_Options.aspx)  
 
-![Smart Water Meter](Smart-Water-Meter.jpg) (Credit: https://www.straitstimes.com/singapore/300000-smart-water-meters-to-be-installed-in-homes-firms)
+![Smart Water Meter](Smart-Water-Meter.jpg)  
+(Credit: https://www.straitstimes.com/singapore/300000-smart-water-meters-to-be-installed-in-homes-firms)
 
 Ideally, we would want to have IoTs that can measure usage from different appliances around the house for a more accurate representation of a typical behavior.
 
@@ -59,9 +61,18 @@ Otherwise, without a chatbot, the user (an elderly) might have not mentioned the
 
 ## Understanding and Acting (Data Consolidation and Cognitive Layer)
 
+This is where all the data from the various sources come together to be fed into the models implemented within IBM Watson Studio.
+
 ### Grand Architecture
 
 lorem ipsum
+
+Gas Usage Anomaly Detection Model
+Electric Usage Anomaly Detection Model
+Water Usage Anomaly Detection Model
+Kitchen Fire Risk Detection Model
+Chatbot's Comprehensive NLP Model
+Threat Scoring Model
 
 ### Example: Anomaly Detection from Electricity Usage Data
 
