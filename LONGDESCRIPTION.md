@@ -83,18 +83,18 @@ The data is that of a one-minute sample over a period of almost 4 years. However
 
 The architecture, known as an Autoencoder, is as follows:
 
-![AutoEncoder Architecture](ae-architecture.PNG)
+![AutoEncoder Architecture](AE-Architecture.jpg)
 
 
 The aim of the AE is to reproduce the same input data as the output and calculate the respective cost function. Therefore, it will only be trained on the ‘healthy’ (normal/ regular/ day-day) activities of the household such as electricity usage, water usage, gas usage and motion within the house. 
 
 The accuracy of the model trained with electricity consumption data after 100 epochs is shown as follows:
 
-![AutoEncoder Results](ae-architecture.PNG)
+![AutoEncoder Results](AE-Results.jpg)
 
 A threshold is built based of the mean squared error (MSE) produced from training the AE with only the data of ‘healthy’ (normal/ regular/day-to-day) activities. 
 
-![AutoEncoder MSE](ae-architecture.PNG)
+![AutoEncoder MSE](AE-Mse.jpg)
  
 Any deviation from the threshold indicates an anomalous activity. The activity can be a spike in electricity usage which might indicate the onset of a potential circuitry damage and fire or it can be a prolonged usage of gas which might indicate that it was left unattended for long.
 
