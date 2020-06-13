@@ -58,7 +58,7 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[Click here to view detailed explanation](LONGDESCRIPTION.md.md)
 
 ## Project roadmap
 
