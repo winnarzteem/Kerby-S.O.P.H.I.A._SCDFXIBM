@@ -63,18 +63,32 @@ Otherwise, without a chatbot, the user (an elderly) might have not mentioned the
 
 This is where all the data from the various sources come together to be fed into the models implemented within IBM Watson Studio.
 
-### Grand AI Architecture
+### Double Layered AI Architecture
 
 ![Grand AI Arcitecture](Grand-AI-Arcitecture.png)
 
-For the Anomaly detection models (Gas, Electricity, Water) we will use a AutoEnconder Model. An example is shown below.
-***INCOMPLETE***
+Anomaly detection models (Gas, Electricity, Water) will be implemented with a AutoEnconder Model. An example for the Eletricity utility is shown below, other utilities are similar and reserved for future work.
+Kitchen Fire Risk Model, Comprehensive NLP Model and Threat Scoring Model will be reserved for future work.
+
+The components in the Double Layered AI Architecture are:
+1. Layer 1
+    1. Gas Usage Anomaly Model
+    2. Electricity Usage Anomaly Model
+    3. Water Usage Anomaly Model
+    4. Kitchen Fire Risk Detection Model
+    5. Comprehensive NLP Model
+        1. Intent Query with Watson Assistant
+        2. Deep Conversational Model
+2. Layer 2
+    1. Threat Detection Model
+  
+
 
 ### Example of a Electric Usage Anomaly Detection Model
 
 In this section we will discuss an example of a Neural Network using an AutoEncoder model to detect anomalies from Electricity Usage Data.
 
-A machine learning algorithm on Watson Studio will receive the respective data collected from the respective IoT sensors via the IoT platform on IBM Cloud. The ML algorithm executes Anomaly Detection with respect to ‘healthy’ data of a normal / regular / day-day activities of the residents in a household. 
+A machine learning algorithm on Watson Studio will receive the respective data collected from the respective IoT sensors via the IoT platform on IBM Cloud. The ML algorithm executes Anomaly Detection with respect to ‘healthy’ data of a normal / regular / day-to-day activities of the residents in a household. 
  
 A baseline architecture of the ML algorithm has been built such that it performs with an accuracy of 98% regardless of the type input data (electricity, water, gas, motion). It was built based on the household power consumption dataset collected by UCI, Center of Machine Learning and Intelligent Systems. (Source: https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
 
