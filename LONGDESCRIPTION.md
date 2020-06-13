@@ -59,13 +59,61 @@ Otherwise, without a chatbot, the user (an elderly) might have not mentioned the
 
 ## Understanding and Acting (Data Consolidation and Cognitive Layer)
 
+### Grand Architecture
+
+### Example: Anomaly Detection from Electricity Usage Data
+
+In this section we will discuss an example of a Neural Network using an AutoEncoder model to detect anomalies from Electricity Usage Data.
+
+A machine learning algorithm on Watson Studio will receive the respective data collected from the respective IoT sensors via the IoT platform on IBM Cloud. The ML algorithm executes Anomaly Detection with respect to ‘healthy’ data of a normal / regular / day-day activities of the residents in a household. 
+ 
+A baseline architecture of the ML algorithm has been built such that it performs with an accuracy of 98% regardless of the type input data (electricity, water, gas, motion). It was built based on the household power consumption dataset collected by UCI, Center of Machine Learning and Intelligent Systems [3].
+
+The data is that of a one-minute sample over a period of almost 4 years. However, in view of a quick simulation of the proposed solution, only data spanning across 5 days was utilized. The 7 features used for constructing the model are as follows: 
+
+1) Global_active_power (Household) 
+2) Global_reactive power (Household) 
+3) Voltage 
+4) Global_intensity (Household) 
+5) Sub_metering_1 (Kitchen)  
+6) Sub_metering_2 (Laundry room) 
+7) Sub_metering_3 (Electric water heater & air-con)
+
+** The features are with respect to the household power consumption dataset from UCI. It was only used for simulation purposes in this case. In view of deployment with Singapore households, the respective data will need to be collected from the relevant authorities. As such, number of features may vary as per the availability of data.
+
+The architecture, known as an Autoencoder, is as follows:
+
+![AutoEncoder Architecture](ae-architecture.PNG)
+
+
+The aim of the AE is to reproduce the same input data as the output and calculate the respective cost function. Therefore, it will only be trained on the ‘healthy’ (normal/ regular/ day-day) activities of the household such as electricity usage, water usage, gas usage and motion within the house. 
+
+The accuracy of the model trained with electricity consumption data after 100 epochs is shown as follows:
+
+![AutoEncoder Results](ae-architecture.PNG)
+
+A threshold is built based of the mean squared error (MSE) produced from training the AE with only the data of ‘healthy’ (normal/ regular/day-to-day) activities. 
+
+![AutoEncoder MSE](ae-architecture.PNG)
+ 
+Any deviation from the threshold indicates an anomalous activity. The activity can be a spike in electricity usage which might indicate the onset of a potential circuitry damage and fire or it can be a prolonged usage of gas which might indicate that it was left unattended for long.
+
+
+
+
+
+
+
+
 ## Communicating (Data Communication Layer)
 
 ### Chatbot
 
+## Services Overview
+
 ## Conclusion 
 
-### Services Overview
+
 
 ### Future Work
 
