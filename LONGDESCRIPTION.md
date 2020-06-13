@@ -57,50 +57,16 @@ Through daily conversations with the user, the user might have instances where t
 
 Otherwise, without a chatbot, the user (an elderly) might have not mentioned their ailments, injuries or incidents to anyone. They might view such occurences as minor but it may come to a point where a build up such incidents will lead to an eventual high-risk incident of which it might be too late to recover from.
 
-
 ## Understanding and Acting (Data Consolidation and Cognitive Layer)
 
-With the advent of IoTs, we are now able to collect real-time data. The main aim of collecting real-time data is to detect irregular behavior within the household. Detecting irregular behavior presents us with an opportunity for early intervention. 
+## Communicating (Data Communication Layer)
 
-Let us illustrate with a simple example:
+### Chatbot
 
-Regular Scenario: Person watches TV from 10am-12pm, 1pm-5pm and 7pm-9pm daily.  
-Irregular Scenario: Person progressively watches lesser TV at the regular intervals. Other utilites usage like gas (cooking) has also seen a dip.
-
-Possible Explanations:
-1. Person is suffering from an onset of depression, with a increase in listlessness to carry out usual activities.
-2. Person had a fall/injury, inhibiting the ability to perform usual activities.
-
-In such cases, either the Community First Responders (CFRs), a family member or a professional officer can step in to properly assess the situation and provide mitigating remedies before a high-risk event occurs. This ensures that there will be potentially lesser high-risk event related calls to the SCDF and at the same time protects the well-being of the home owner.
-
-### Points of data collection
-
-As shown in the architecture, there are 4 points of data collection. They can be further classified into "Utilities" and "Kitchen Activity". 
-
-#### Utilities
-
-Under the Utilities category, we will be observing and measuring Electricity, Gas and Water usage through IoTs. In fact, the option to have such measurements using a "smart meter" taken already exist in the market. (See: https://www.ema.gov.sg/Metering_Options.aspx) 
-
-![Smart Meter](.PNG)
-
-Ideally, we would want to have IoTs that can measure usage from different appliances around the house for a more accurate representation of a typical behavior.
-
-#### Kitchen Activity
-
-Under the Kitchen Activity category, we will be observing and measuring Kitchen Activity through a Motion Sensor IoT. This is relevant because it help prevent fires related disasters in the household kitchen. The motion activity is to be used in tandem with the Gas usage data. 
-
-If the gas is being utilized for 'x' amount of time and the motion sensor did not sense any movement in 'y' amount of time since the start of the gas usage, then an alarm will be triggered via IBM Watson Studio. This alarm will be sent to the chatbot via IBM Watson Assistant to alert the homeowner.
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
-
-## Conclusion
+## Conclusion 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
 
-### Results
+## Further Work
 
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
 
-## Acknowledgments
-
-Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
