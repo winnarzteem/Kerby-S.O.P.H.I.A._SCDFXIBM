@@ -51,10 +51,10 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 ![S.O.P.H.I.A. System](solution-architecture.PNG)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. Machine Learning is done in IBM Watson Studio (see long description for details)
+2. Other Health Organizations and SCDF's APIs are assumed to be available in this solution (see long description for justification)
+3. The Analytics Team refer to any team that is authorized to monitor and analyze the user data provided by the Machine Learning Model.
+4. The Household IoTs are as the name suggests, they measure the usage of resources. Motion sensors monitors movement in the kitchen. The rationale behind this is to prevent fires from unwatched stoves.
 
 ## Long description
 
