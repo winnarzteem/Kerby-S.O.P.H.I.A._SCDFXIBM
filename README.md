@@ -26,7 +26,14 @@ A bulk of SCDF's inbound calls are related to the Emergency Medical Services. At
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+By capturing data of household and homeowner activity, we are able to monitor the baseline patterns during normal times. If there is a divergence from such normality an investigative procedure will be performed, depending on the severity of the divergence. With a well connected infrastructure, the system is able to find appropriate measures for self-aid resources or to alert Community First Responders (CFRs) to enlist their help. 
+
+In non-severe cases, the situation will be highlighted to the relevant parties (e.g. next-of-kin, CFR, social workers). They can then act as an early intervention measure to prevent the escalation of injury/accident risk. In highly severe cases, the system will inform the SCDF or other relevant organisations for immediate attention. 
+
+The aim of this solution is to utlize technology:
+1. To analyze the status quo of a given household via data analysis
+2. To prevent a high-risk situation by creating opportunities for early intervention as early as possible
+3. To remedy different situations with different level of support based on the severity
 
 ### The idea
 
