@@ -63,9 +63,9 @@ Otherwise, without a chatbot, the user (an elderly) might have not mentioned the
 
 This is where all the data from the various sources come together to be fed into the models implemented within IBM Watson Studio.
 
-### Grand Architecture
+### Grand AI Architecture
 
-lorem ipsum
+![Grand AI Arcitecture](Grand-AI-Arcitecture.JPG)
 
 Gas Usage Anomaly Detection Model
 Electric Usage Anomaly Detection Model
