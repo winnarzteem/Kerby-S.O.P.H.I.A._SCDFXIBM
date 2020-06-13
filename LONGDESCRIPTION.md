@@ -77,12 +77,18 @@ The components in the Double Layered AI Architecture are:
     3. Water Usage Anomaly Model
     4. Kitchen Fire Risk Detection Model
     5. Comprehensive NLP Model
-        1. Intent Query with Watson Assistant
+        1. Query Intent with Watson Assistant
         2. Deep Conversational Model
 2. Layer 2
-    1. Threat Detection Model
+    1. Threat Scoring Model
   
+In Layer 1, the models will receive inputs from the IoTs/chatbot directly. Within this layer, each model will be trained on the user's own behavoiral patterns within the household. Their eventual output will be a weight/score that will serve as an input to Layer 2.
 
+Within Layer 1, the Comprehensive NLP Model will consist of the Query Intent with Watson Assistant and a Deep Conversational Model. A portion of the Query Intent with Watson Assistant is completed within the 48 hours. However, a Deep Conversational Model is a highly complex research area which would require more resources to develop a working model.
+
+In Layer 2, the Threat Scoring Model will receive the outputs from Layer 1 as its input. Ideally, some form of online learning should be in place here. This allows for the Threat Scoring Model to re-train on-the-go. The online learning will provide feedback to the model if the eventual output is a True Positive, False Positive, False Negative or True Negative.
+
+*Due to the complexity of such implementation and the time constraint of the hackathon, the series of explanation above is not perfect and will require refinement with further research*
 
 ### Example of a Electric Usage Anomaly Detection Model
 
@@ -124,14 +130,18 @@ Any deviation from the threshold indicates an anomalous activity. The activity c
 
 ## Communicating (Data Communication Layer)
 
+blank blank
+
 ### Chatbot
+
+blank blank
 
 ## Services Overview
 
 | Completed during the Hackathon | Not Completed |
 |:---:|:---:|
 | Electricity Usage Anomaly Model | Gas Usage Anomaly Model |
-| Intent Query with Watson Assistant | Water Usage Anomaly Model |
+| Query Intent with Watson Assistant | Water Usage Anomaly Model |
 |   | Kitchen Fire Risk Detection Model |
 |   | Deep Conversational Model |
 |   | Threat Scoring Model |
