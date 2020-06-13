@@ -49,7 +49,7 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 ## The architecture
 
-![S.O.P.H.I.A. System](https://github.com/winnarzteem/Kerby-S.O.P.H.I.A._SCDFXIBM/blob/master/solution architecture.png?raw=true)
+![S.O.P.H.I.A. System](solution architecture.PNG)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
