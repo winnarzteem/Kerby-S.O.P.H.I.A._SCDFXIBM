@@ -65,7 +65,7 @@ This is where all the data from the various sources come together to be fed into
 
 ### Grand AI Architecture
 
-![Grand AI Arcitecture](Grand-AI-Arcitecture.JPG)
+![Grand AI Arcitecture](Grand-AI-Arcitecture.png)
 
 Gas Usage Anomaly Detection Model
 Electric Usage Anomaly Detection Model
