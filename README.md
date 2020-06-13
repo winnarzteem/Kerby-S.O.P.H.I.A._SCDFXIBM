@@ -33,8 +33,10 @@ In non-severe cases, the situation will be highlighted to the relevant parties (
 The aim of this solution is to utlize technology:
 1. To analyze the status quo of a given household via data analysis
 2. To prevent a high-risk situation by creating opportunities for early intervention as early as possible
-3. To remedy different situations with different level of support based on the severity
+3. To remedy different situations with different level of support based on severity
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+In view of the growth in the aging population, it is important that we have to create a safer household for everyone so that their needs are met and they are well supported at all times. This is especially significant in times of crises such as the current COVID-19 pandemic. During our nation's circuit breaker, social interaction is reduced and this poses a huge problem for the aging households without a next-of-kin. In such households, when a high-risk event happens it might already be too late.
+
+Our team proposes S.O.P.H.I.A., a lightweight,
