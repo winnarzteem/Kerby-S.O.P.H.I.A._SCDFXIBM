@@ -74,7 +74,7 @@ Kitchen Fire Risk Detection Model
 Chatbot's Comprehensive NLP Model
 Threat Scoring Model
 
-### Example: Anomaly Detection from Electricity Usage Data
+### Example of a Electric Usage Anomaly Detection Model
 
 In this section we will discuss an example of a Neural Network using an AutoEncoder model to detect anomalies from Electricity Usage Data.
 
