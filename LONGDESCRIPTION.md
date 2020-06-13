@@ -61,6 +61,8 @@ Otherwise, without a chatbot, the user (an elderly) might have not mentioned the
 
 ### Grand Architecture
 
+lorem ipsum
+
 ### Example: Anomaly Detection from Electricity Usage Data
 
 In this section we will discuss an example of a Neural Network using an AutoEncoder model to detect anomalies from Electricity Usage Data.
@@ -90,11 +92,11 @@ The aim of the AE is to reproduce the same input data as the output and calculat
 
 The accuracy of the model trained with electricity consumption data after 100 epochs is shown as follows:
 
-![AutoEncoder Results](AE-Results.jpg)
+![AutoEncoder Results](AE-Results.png)
 
 A threshold is built based of the mean squared error (MSE) produced from training the AE with only the data of ‘healthy’ (normal/ regular/day-to-day) activities. 
 
-![AutoEncoder MSE](AE-Mse.jpg)
+![AutoEncoder MSE](AE-Mse.png)
  
 Any deviation from the threshold indicates an anomalous activity. The activity can be a spike in electricity usage which might indicate the onset of a potential circuitry damage and fire or it can be a prolonged usage of gas which might indicate that it was left unattended for long.
 
