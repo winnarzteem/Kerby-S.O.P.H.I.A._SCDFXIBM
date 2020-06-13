@@ -76,7 +76,7 @@ In this section we will discuss an example of a Neural Network using an AutoEnco
 
 A machine learning algorithm on Watson Studio will receive the respective data collected from the respective IoT sensors via the IoT platform on IBM Cloud. The ML algorithm executes Anomaly Detection with respect to ‘healthy’ data of a normal / regular / day-day activities of the residents in a household. 
  
-A baseline architecture of the ML algorithm has been built such that it performs with an accuracy of 98% regardless of the type input data (electricity, water, gas, motion). It was built based on the household power consumption dataset collected by UCI, Center of Machine Learning and Intelligent Systems [3].
+A baseline architecture of the ML algorithm has been built such that it performs with an accuracy of 98% regardless of the type input data (electricity, water, gas, motion). It was built based on the household power consumption dataset collected by UCI, Center of Machine Learning and Intelligent Systems. (Source: https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
 
 The data is that of a one-minute sample over a period of almost 4 years. However, in view of a quick simulation of the proposed solution, only data spanning across 5 days was utilized. The 7 features used for constructing the model are as follows: 
 
@@ -113,6 +113,16 @@ Any deviation from the threshold indicates an anomalous activity. The activity c
 ### Chatbot
 
 ## Services Overview
+
+| Completed during the Hackathon | Not Completed |
+|:---:|:---:|
+| Electricity Usage Anomaly Model | Gas Usage Anomaly Model |
+| Intent Query with Watson Assistant | Water Usage Anomaly Model |
+|   | Kitchen Fire Risk Detection Model |
+|   | Deep Conversational Model |
+|   | Threat Scoring Model |
+|   | Monitoring Dashboard Web Application |
+|   | Chatbot Mobile Application |
 
 ## Conclusion 
 
