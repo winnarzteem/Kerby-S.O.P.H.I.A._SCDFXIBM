@@ -67,12 +67,8 @@ This is where all the data from the various sources come together to be fed into
 
 ![Grand AI Arcitecture](Grand-AI-Arcitecture.png)
 
-Gas Usage Anomaly Detection Model
-Electric Usage Anomaly Detection Model
-Water Usage Anomaly Detection Model
-Kitchen Fire Risk Detection Model
-Chatbot's Comprehensive NLP Model
-Threat Scoring Model
+For the Anomaly detection models (Gas, Electricity, Water) we will use a AutoEnconder Model. An example is shown below.
+***INCOMPLETE***
 
 ### Example of a Electric Usage Anomaly Detection Model
 
@@ -110,12 +106,6 @@ A threshold is built based of the mean squared error (MSE) produced from trainin
 ![AutoEncoder MSE](AE-Mse.png)
  
 Any deviation from the threshold indicates an anomalous activity. The activity can be a spike in electricity usage which might indicate the onset of a potential circuitry damage and fire or it can be a prolonged usage of gas which might indicate that it was left unattended for long.
-
-
-
-
-
-
 
 
 ## Communicating (Data Communication Layer)
