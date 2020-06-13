@@ -39,7 +39,7 @@ There are three main categories of points of data collection:
 
 Under the Utilities category, we will be observing and measuring Electricity, Gas and Water usage through IoTs. In fact, the option to have such measurements using a "smart meter" taken already exist in the market. (See: https://www.ema.gov.sg/Metering_Options.aspx) 
 
-![Smart Meter](.PNG)
+![Smart Water Meter](Smart-Water-Meter.jpg) (Credit: https://www.straitstimes.com/singapore/300000-smart-water-meters-to-be-installed-in-homes-firms)
 
 Ideally, we would want to have IoTs that can measure usage from different appliances around the house for a more accurate representation of a typical behavior.
 
