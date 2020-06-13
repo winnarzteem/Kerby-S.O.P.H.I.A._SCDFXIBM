@@ -13,7 +13,9 @@ Analogous to the human body, the data collection layer serves as the sight and h
 
 ## Seeing and Hearing (Data Collection Layer)
 
-Here 
+With the advent of IoTs, we are now able to collect real-time data. The main aim of collecting real-time data is to detect irregular behavior within the household. Detecting irregular behavior presents us with an opportunity for early intervention. Let us illustrate with a simple example.
+
+Regular
 
 ### Subsection 1.1
 
