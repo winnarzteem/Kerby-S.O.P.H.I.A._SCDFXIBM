@@ -3,10 +3,10 @@ S.O.P.H.I.A. (Safety Officer Personalised Health Intelligence Assistant) is an r
 
 ## Contents
 
-1. [Description of Problem and Proposed Solution](#short-description)
+1. [Short Description of Problem and Proposed Solution](#short-description)
 1. [Demo video](#demo-video)
 1. [Solution architecture](#the-architecture)
-1. [Detailed Solution](#long-description)
+1. [Long Description of Detailed Solution](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
