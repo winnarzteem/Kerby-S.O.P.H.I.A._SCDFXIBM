@@ -49,7 +49,7 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![S.O.P.H.I.A. System](https://github.com/winnarzteem/Kerby-S.O.P.H.I.A._SCDFXIBM/blob/master/solution architecture.png?raw=true)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
