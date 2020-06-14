@@ -39,7 +39,7 @@ Our team proposes S.O.P.H.I.A., a fully connected infrastructure for capturing, 
 
 ## Demo video
 
-[![Watch the video](IBM-interview-video-image.png)](https://www.youtube.com/watch?v=lVDCo8WyC-c&feature=youtu.be)
+[![Watch the video](SOPHIA-YT-Screencap.PNG)](https://www.youtube.com/watch?v=lVDCo8WyC-c&feature=youtu.be)
 
 
 ## The architecture
