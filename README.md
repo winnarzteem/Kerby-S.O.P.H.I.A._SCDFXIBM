@@ -49,7 +49,7 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 ## The architecture
 
-![S.O.P.H.I.A. System](solution-architecture.PNG)
+![S.O.P.H.I.A. System](solution-architecture.png)
 
 1. Machine Learning is done in IBM Watson Studio (see long description for details)
 2. Other Health Organizations and SCDF's APIs are assumed to be available in this solution (see long description for justification)
