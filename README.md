@@ -139,11 +139,11 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 ## Authors
 
 **Johnathan Tan**  
-**Kai Xiang**  
+**Khor Kai Xiang**  
 **Lerroy Ashwin**  
-**Noris**  
+**Noris Tan**  
 **Ruven Guna**  
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+The team would like to give thanks to SCDF and IBM for hosting this hackathon and providing valuable resources. The problem statements proposed were interesting and definetly relevant to shape the future of smart living in Singapore.  
