@@ -130,7 +130,7 @@ Any deviation from the threshold indicates an anomalous activity. The activity c
 
 ## Communicating (Data Communication Layer)
 
-blank blank
+Data 
 
 ### Chatbot
 
