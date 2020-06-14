@@ -40,7 +40,8 @@ Our team proposes S.O.P.H.I.A., a fully connected infrastructure for capturing, 
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](IBM-interview-video-image.png)](https://www.youtube.com/watch?v=lVDCo8WyC-c&feature=youtu.be)
+
 
 ## The architecture
 
@@ -125,7 +126,7 @@ There is no Prerequisites or Installing required to run the chatbot. Just click 
 
 ## Live demo
 
-Preview link: [Chatbot Live Demo](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=7565f240-f87a-4484-b7c6-e4ed924e4074&serviceInstanceID=5b6df55b-6a11-476f-bf5d-ddde7a1542a7)
+Preview link: [Chatbot Live Demo](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=64e1345c-718e-4b9b-9f10-e1ff0bacf984&serviceInstanceID=5b6df55b-6a11-476f-bf5d-ddde7a1542a7)
 (Right-click to open in a new tab)
 
 From the preview link provided, you can have a trial run on how the chatbot interaction works. 
