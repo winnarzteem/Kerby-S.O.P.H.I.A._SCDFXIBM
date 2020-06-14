@@ -127,7 +127,10 @@ There is no Prerequisites or Installing required to run the chatbot. Just click 
 
 ## Live demo
 
-From the preview link provided [click me!](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=7565f240-f87a-4484-b7c6-e4ed924e4074&serviceInstanceID=5b6df55b-6a11-476f-bf5d-ddde7a1542a7), you can have a trial run on how the chatbot interaction works. 
+Preview link: [Chatbot Live Demo](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=7565f240-f87a-4484-b7c6-e4ed924e4074&serviceInstanceID=5b6df55b-6a11-476f-bf5d-ddde7a1542a7)
+(Right-click to open in a new tab)
+
+From the preview link provided, you can have a trial run on how the chatbot interaction works. 
 
 ## Built with
 
