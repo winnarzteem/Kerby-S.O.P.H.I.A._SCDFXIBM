@@ -12,10 +12,7 @@ S.O.P.H.I.A. (Safety Officer Personalised Health Intelligence Assistant) is an r
 1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
 1. [Built with](#built-with)
-1. [Contributing](#contributing)
-1. [Versioning](#versioning)
 1. [Authors](#authors)
-1. [License](#license)
 1. [Acknowledgments](#acknowledgments)
 
 ## Short description
@@ -138,23 +135,11 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 * [Maven](https://maven.apache.org/) - Dependency management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+**Billie Thompson** 
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
