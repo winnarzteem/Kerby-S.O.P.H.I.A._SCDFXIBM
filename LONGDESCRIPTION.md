@@ -136,11 +136,14 @@ The two parties will see different forms of data. The User will primarily consum
 The main goal of the analytics team is to study the data and deliver insights for improvements in the models, chatbot and crisis/pre-crisis handling procedure.
 
 ### Chatbot
-text-to-speech
-speech-to-text
-multi-lingual
 
-blank blank
+The Chatbot will be the main agent helping the user in their daily lives. It will be able to respond to queries and send out relevant remedy/health information from the health organizations via IBM Watson Discovery. It will also have text-to-speech, speech-to-text and multi-lingual support to ensure that it can handle users from various demographics/backgrounds.
+
+Not only does it support simple question and answering with regards to health, it will be designed to be able to conduct a deep conversation with the user. Such deep conversations can help allievate loneliness with the user by forming a connection with them. Such that the Chatbot would not be perceived as a simple question and answering machine. Through the connection we can also find early intervention opportuinities, such as when the user would casually remark a certain mood/discomfort they are feeling.
+
+This information would then be registered and record within a model, where if there is a repeated decline in mood or an increase in episodes of discomfort, it will be alerted to SCDF or the CFRs directly.
+
+Example: An elderly have no episodes of falling prior, but recently the chatbot has been registering that they are falling more and more often. This can be a telltale sign of an underlying illness which could lead to an eventual high-risk event.  
 
 #### Function #1: Deep Conversation
 #### Function #2: Query Intent
