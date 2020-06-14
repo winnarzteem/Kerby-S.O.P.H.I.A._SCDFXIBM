@@ -1,0 +1,1275 @@
+{
+  "intents": [
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "thank you for the information"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "okay. thanks."
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "appreciate it"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PainLimb",
+      "examples": [
+        {
+          "text": "feet hurt"
+        },
+        {
+          "text": "my hands are in pain"
+        },
+        {
+          "text": "limbs pain"
+        },
+        {
+          "text": "hand ache"
+        },
+        {
+          "text": "My hand pain"
+        },
+        {
+          "text": "leg pain"
+        },
+        {
+          "text": "leg hurts"
+        },
+        {
+          "text": "my arm hurts"
+        },
+        {
+          "text": "my limb pain"
+        }
+      ]
+    },
+    {
+      "intent": "CallForAmbulance",
+      "examples": [
+        {
+          "text": "the ambulance is on the way"
+        },
+        {
+          "text": "I called for ambulance"
+        },
+        {
+          "text": "I call ambulance"
+        },
+        {
+          "text": "what I do now after I call ambulance"
+        },
+        {
+          "text": "I call 995"
+        },
+        {
+          "text": "What to do now? I called ambulance"
+        },
+        {
+          "text": "I have called the ambulance"
+        },
+        {
+          "text": "what should i do while waiting for the ambulance"
+        },
+        {
+          "text": "Help me! I called ambulance"
+        },
+        {
+          "text": "I called ambulance"
+        },
+        {
+          "text": "Ambulance is not yet here"
+        }
+      ]
+    },
+    {
+      "intent": "Emotional",
+      "examples": [
+        {
+          "text": "I feel sad"
+        },
+        {
+          "text": "i feel happy"
+        },
+        {
+          "text": "i feel angry"
+        }
+      ],
+      "description": "Feelings"
+    },
+    {
+      "intent": "Cuts",
+      "examples": [
+        {
+          "text": "cut"
+        },
+        {
+          "text": "slash"
+        },
+        {
+          "text": "I have cut myself"
+        },
+        {
+          "text": "I have a cut"
+        },
+        {
+          "text": "laceration"
+        },
+        {
+          "text": "small cut"
+        },
+        {
+          "text": "gash"
+        },
+        {
+          "text": "slit"
+        },
+        {
+          "text": "deep cut"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NauseaAndVomiting",
+      "examples": [
+        {
+          "text": "My stomach feels uncomfortable"
+        },
+        {
+          "text": "I feel nauseous"
+        },
+        {
+          "text": "I want to puke"
+        },
+        {
+          "text": "I have just vomitted"
+        },
+        {
+          "text": "I have been feeling like I need to throw up"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HeartAttack",
+      "examples": [
+        {
+          "text": "think I having heart attack soon"
+        },
+        {
+          "text": "my chest starts to ache now"
+        },
+        {
+          "text": "I think I having heart attack soon"
+        },
+        {
+          "text": "heart attack"
+        },
+        {
+          "text": "I cannot breathe"
+        },
+        {
+          "text": "vomiting"
+        },
+        {
+          "text": "my chest pain"
+        },
+        {
+          "text": "nausea"
+        },
+        {
+          "text": "Chest Pain"
+        },
+        {
+          "text": "sweating"
+        },
+        {
+          "text": "I feel pain in my chest"
+        },
+        {
+          "text": "I sweating"
+        },
+        {
+          "text": "I am sweating for no reason"
+        },
+        {
+          "text": "shortness of breath"
+        },
+        {
+          "text": "chest abit pain"
+        },
+        {
+          "text": "cannot breathe"
+        },
+        {
+          "text": "heart attack!"
+        },
+        {
+          "text": "my heart attack is coming"
+        }
+      ]
+    },
+    {
+      "intent": "weakness",
+      "examples": [
+        {
+          "text": "I am not feeling well"
+        },
+        {
+          "text": "no energy"
+        },
+        {
+          "text": "I not feeling right"
+        },
+        {
+          "text": "I very weak now"
+        },
+        {
+          "text": "I don't feel alright"
+        },
+        {
+          "text": "I weak now"
+        },
+        {
+          "text": "unwell"
+        }
+      ],
+      "description": "Do you feel any weakness"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "emotion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "angry",
+          "synonyms": [
+            "enraged",
+            "irate",
+            "annoyed",
+            "indignant",
+            "outraged",
+            "disgruntled",
+            "upset",
+            "furious",
+            "mad",
+            "livid",
+            "incensed",
+            "angered",
+            "disgusted",
+            "appalled",
+            "distraught",
+            "infuriated",
+            "shocked",
+            "irritated",
+            "displeased"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "happy",
+          "synonyms": [
+            "glad",
+            "excited",
+            "happier",
+            "pleased",
+            "grateful",
+            "merry",
+            "joyful",
+            "lucky",
+            "good",
+            "happily",
+            "thrilled",
+            "delighted",
+            "thankful",
+            "fortunate",
+            "joyous",
+            "proud",
+            "nice",
+            "great",
+            "appreciative"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sad",
+          "synonyms": [
+            "depressing",
+            "saddening",
+            "sorry",
+            "tragic",
+            "unhappy",
+            "miserable",
+            "sadly",
+            "sadness",
+            "boring",
+            "unfortunate",
+            "unfortunately",
+            "disheartening",
+            "regrettable",
+            "pitiful",
+            "wretched",
+            "sorrow",
+            "dispiriting",
+            "tragedy",
+            "disappointed",
+            "grief",
+            "pathetic",
+            "disappointing",
+            "anguish",
+            "dismal",
+            "regrettably",
+            "regret",
+            "alas",
+            "heartache",
+            "tragically",
+            "dreary"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "agree",
+            "okay",
+            "yeah",
+            "yep",
+            "sure",
+            "yup",
+            "ok",
+            "certainly",
+            "definitely",
+            "surely",
+            "indeed",
+            "absolutely",
+            "clearly"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ambulance",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "difficulty breathing",
+          "synonyms": [
+            "Chest pain",
+            "Chest tightness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spine injury",
+          "synonyms": [
+            "back injury",
+            "back pain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "giddiness",
+          "synonyms": [
+            "dizziness"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "HandLegPain",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hand pain",
+          "synonyms": [
+            "pain in the hands",
+            "my hand hurts",
+            "palms hurts",
+            "pain in palms"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "leg pain",
+          "synonyms": [
+            "pain in the legs",
+            "pain in the limbs",
+            "ache in the knees"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "not",
+            "never",
+            "neither",
+            "nor"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cardiac_symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "breathless",
+          "synonyms": [
+            "gasping",
+            "wheezing",
+            "shortness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pain",
+          "synonyms": [
+            "pains",
+            "painful",
+            "excruciating",
+            "agonizing",
+            "difficult",
+            "unbearable",
+            "intolerable",
+            "hard"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1592104356866",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1592104356871"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_6_1592104356871",
+      "previous_sibling": "node_5_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "Response to no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you exhibiting signs of dehydration such as extreme thirst, light headedness and a dry mouth?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592104356866",
+      "dialog_node": "node_7_1592104356871",
+      "previous_sibling": "node_6_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please head down to the A&E to seek immediate medical attention. Please take note of any medication you have taken in the last 24 hours and take note of any drug allergies you may have. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592104356866",
+      "conditions": "@yes",
+      "dialog_node": "node_5_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. If you are not feeling a combination of any of those symptoms, you are okay. Please continue to monitor your pain and alert me if there is any new development with your pain. For now, please stay home and rest. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592062511966",
+      "conditions": "@no",
+      "dialog_node": "node_4_1592064265110",
+      "previous_sibling": "node_2_1592064188238"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ahh okay. In this case, I would advice you to head to your nearest GP to see a doctor. Do take note of any medication that you have taken in the past 24 hours and if you have any drug allergies. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592062511966",
+      "conditions": "@yes",
+      "dialog_node": "node_2_1592064188238"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I understand your anger. Why are you feeling angry?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592066578760",
+      "conditions": "@emotion:angry",
+      "dialog_node": "response_3_1592112022134",
+      "previous_sibling": "response_10_1592112008729"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am here for you. Please tell me more about what made you sad."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592066578760",
+      "conditions": "@emotion:sad",
+      "dialog_node": "response_10_1592112008729",
+      "previous_sibling": "response_7_1592111988857"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's great!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1592066578760",
+      "conditions": "@emotion:happy",
+      "dialog_node": "response_7_1592111988857"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please rest at home and continue to monitor your nausea. If it gets worse or if there is any new development, please let me know."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592104564292",
+      "conditions": "@no",
+      "dialog_node": "node_2_1592104722553",
+      "previous_sibling": "node_1_1592104711024"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please seek medical attention at your nearest GP. Don't forget to take note of any medication you have taken in the past 24 hours and if you have any drug allergies. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1592104564292",
+      "conditions": "@yes",
+      "dialog_node": "node_1_1592104711024"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. In that case, I would advice you to rest at home until the discomfort goes away. If the pain gets worse or if there is any new development, please let me know. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592065035088",
+      "conditions": "@no",
+      "dialog_node": "node_6_1592065278218",
+      "previous_sibling": "node_4_1592065262445"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Alright. I have notified a nearby CFR to attend to you immediately. Please remain calm and try to stay seated in the upright position."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1592065035088",
+      "conditions": "@yes",
+      "dialog_node": "node_4_1592065262445"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you feel any weakness"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592059654258",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_5_1592061597786",
+      "previous_sibling": "node_9_1592062511966"
+    },
+    {
+      "type": "standard",
+      "title": "2outof3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. In that case, are you facing any 2 out of the 3 following conditions? \n1) Weakness\n2) Numbness\n3) Result of an Injury"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1592059654258",
+      "conditions": "@no",
+      "dialog_node": "node_9_1592062511966",
+      "previous_sibling": "node_2_1592062403233"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "parent": "node_8_1592059654258",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1592062511966"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_2_1592062403233",
+      "previous_sibling": "node_4_1592062391125"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592059654258",
+      "disabled": true,
+      "dialog_node": "response_6_1592061919277",
+      "previous_sibling": "response_5_1592061597786"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I see. I would advice you to head to your nearest GP to seek medical treatment. Do take note of any medication that you have taken in the past 24 hours and if you have any drug allergies. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1592059654258",
+      "conditions": "@yes",
+      "dialog_node": "node_4_1592062391125"
+    },
+    {
+      "type": "standard",
+      "title": "Spine injury",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Avoid twisting your back and stay as still as possible"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592066947965",
+      "conditions": "@ambulance:(spine injury)",
+      "dialog_node": "node_6_1592067603729",
+      "previous_sibling": "node_1_1592067590945"
+    },
+    {
+      "type": "standard",
+      "title": "Difficulty breathing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Remain seated in an upright position"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592066947965",
+      "conditions": "@ambulance:(difficulty breathing)",
+      "dialog_node": "node_9_1592067621990",
+      "previous_sibling": "node_6_1592067603729"
+    },
+    {
+      "type": "standard",
+      "title": "Giddiness",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Drink something sweet and remain seated"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592066947965",
+      "conditions": "@ambulance:giddiness",
+      "dialog_node": "node_1_1592067590945"
+    },
+    {
+      "type": "standard",
+      "title": "Response to second no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Has the vomiting been persisting for a few hours or have you developed abdominal pain or diarrhoea?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592104356871",
+      "dialog_node": "node_4_1592104564292",
+      "previous_sibling": "node_9_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1592104356871",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1592104564292"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_9_1592104356871",
+      "previous_sibling": "node_8_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please head down to the nearest GP. Do take note of any medication you have taken in the past 24 hours. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592104356871",
+      "conditions": "@yes",
+      "dialog_node": "node_8_1592104356871"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please rest at home and continue to monitor your cut. If it continues to bleed or if there is any new development, please let me know."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592103225767",
+      "conditions": "@no",
+      "dialog_node": "node_3_1592103533345",
+      "previous_sibling": "node_6_1592103417610"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please head down to the nearest GP. Do take note of any medication you have taken in the past 24 hours. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1592103225767",
+      "conditions": "@yes",
+      "dialog_node": "node_6_1592103417610"
+    },
+    {
+      "type": "standard",
+      "title": "Response to no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you feel feverish and is there redness, swelling, pain and pus formation developing on the cut? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592103088162",
+      "dialog_node": "node_7_1592103225767",
+      "previous_sibling": "node_3_1592103088167"
+    },
+    {
+      "type": "standard",
+      "title": "no",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1592103088162",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1592103225767"
+      },
+      "conditions": "@no",
+      "dialog_node": "node_3_1592103088167",
+      "previous_sibling": "node_2_1592103088167"
+    },
+    {
+      "type": "standard",
+      "title": "yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please visit the GP closes to you to disinfect the cut. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592103088162",
+      "conditions": "@yes",
+      "dialog_node": "node_2_1592103088167"
+    },
+    {
+      "type": "standard",
+      "title": "Emotional",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Emotional",
+      "dialog_node": "node_10_1592066578760",
+      "previous_sibling": "node_4_1592104356866"
+    },
+    {
+      "type": "standard",
+      "title": "Hand Leg Pain",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am sorry to hear that. Has the pain persisted longer than 2 days?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#PainLimb",
+      "dialog_node": "node_8_1592059654258",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1592106015918",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Ambulance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh. What's wrong?"
+              },
+              {
+                "text": "I see. May I ask what made you want to call an ambulance."
+              },
+              {
+                "text": "I hope you are okay. Why did you decide to call an ambulance?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#CallForAmbulance",
+      "dialog_node": "node_1_1592066947965",
+      "previous_sibling": "node_10_1592066578760"
+    },
+    {
+      "type": "standard",
+      "title": "Cuts",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry to hear that. Was it due to an animal bite or caused by a rusty nail?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cuts",
+      "dialog_node": "node_1_1592103088162",
+      "previous_sibling": "node_9_1592065035088"
+    },
+    {
+      "type": "standard",
+      "title": "Heart attack",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing breathlessness, chest pain, as well as cold sweat?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#HeartAttack",
+      "dialog_node": "node_9_1592065035088",
+      "previous_sibling": "node_8_1592059654258"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. Please let me know if you would like to talk about something else."
+              },
+              {
+                "text": "No problem. Please let me know if anything else is on your mind."
+              },
+              {
+                "text": "My pleasure. Let me know if there is anything else I can help with."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#thanks",
+      "dialog_node": "node_5_1592106015918",
+      "previous_sibling": "node_1_1592066947965"
+    },
+    {
+      "type": "standard",
+      "title": "Nausea and vomiting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oh no. Do you have severe abdominal pain or was the vomiting caused by a head injury?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NauseaAndVomiting",
+      "dialog_node": "node_4_1592104356866",
+      "previous_sibling": "node_1_1592103088162"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. I am Sophia. How can I help you today? "
+              },
+              {
+                "text": "Hey! Sofia here. How are you feeling today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Level 1",
+  "language": "en",
+  "description": "Nothing much"
+}
