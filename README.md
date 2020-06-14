@@ -138,11 +138,11 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 
 ## Authors
 
-**Johnathan Tan** 
-**Kai Xiang** 
-**Lerroy Ashwin** 
-**Noris** 
-**Ruven Guna** 
+**Johnathan Tan**  
+**Kai Xiang**  
+**Lerroy Ashwin**  
+**Noris**  
+**Ruven Guna**  
 
 ## Acknowledgments
 
