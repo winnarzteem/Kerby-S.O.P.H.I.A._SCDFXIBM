@@ -9,7 +9,7 @@ S.O.P.H.I.A. (Safety Officer Personalised Health Intelligence Assistant) is made
 
 Analogous to the human body, the data collection layer serves as the sight and hearing function, the data consolidation and cognitive layer serves as the brain function and the data communication layer serves as the speech and movement actions. Here is a visual representation of the S.O.P.H.I.A. architecture.
 
-![S.O.P.H.I.A. System](solution-architecture.PNG)
+![S.O.P.H.I.A. System](solution-architecture.png)
 
 ## Seeing and Hearing (Data Collection Layer)
 
