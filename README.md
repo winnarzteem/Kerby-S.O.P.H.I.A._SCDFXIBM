@@ -7,7 +7,7 @@ S.O.P.H.I.A. (Safety Officer Personalised Health Intelligence Assistant) is an r
 1. [Demo video](#demo-video)
 1. [Solution architecture](#the-architecture)
 1. [Long Description of Detailed Solution](#long-description)
-1. [Project roadmap](#project-roadmap)
+1. [Project Infographic](#project-infographic)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
@@ -57,83 +57,27 @@ Our team proposes S.O.P.H.I.A., a lightweight,
 
 [Click here to view detailed explanation](LONGDESCRIPTION.md)
 
-## Project roadmap
+## Project Infographic
 
-![Roadmap](roadmap.jpg)
+![Infographic](infographic.jpg)
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will allow you to test 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+There is no Prerequisites or Installing required to run the chatbot. Just click on the preview link to start.
 
-```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
-
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instnance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
 
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+From the preview link provided [callforcode.mybluemix.net](http://callforcode.mybluemix.net/), you can have a trial run on how the chatbot interaction works. 
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [IBM Watson Assistant Lite](https://cloud.ibm.com/catalog?search=watson%20assistant#search_results) 
+* [IBM Watson Studio](https://cloud.ibm.com/catalog?search=watson%20studio#search_results)
 
 
 ## Authors
