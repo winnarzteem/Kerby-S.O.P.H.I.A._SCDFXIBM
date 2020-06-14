@@ -160,7 +160,8 @@ S.O.P.H.I.A. is not meant to be a surveillance system, its purely meant to enabl
 ### Future Work
 
 Developing the chatbot to ensure safe living requires advice from subject matter experts in several fields:
-1) Medical Officers: Proper advise in any injury event, identifying patterns in symptoms that may lead up to a high risk event
+1) Medical Officers: Give insights on how to properly advise in any injury event, identifying patterns in symptoms that may lead up to a high risk event
 2) Social Workers: How to engage the elderly, special areas to look out for when communicating with the elderly
 3) Psychologist: Identify patterns in mood swings, providing proper responses and questions to the user
+
 
