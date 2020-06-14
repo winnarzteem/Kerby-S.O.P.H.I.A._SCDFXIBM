@@ -138,6 +138,7 @@ blank blank
 
 #### Function #1: Deep Conversation
 #### Function #2: Query Intent
+watson discovery
 #### Function #3: Providing 
 
 
