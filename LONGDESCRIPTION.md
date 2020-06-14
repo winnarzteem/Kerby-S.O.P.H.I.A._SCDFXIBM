@@ -136,7 +136,12 @@ blank blank
 
 blank blank
 
-## Services Overview
+#### Function #1: Deep Conversation
+#### Function #2: Query Intent
+#### Function #3: Providing 
+
+
+## Overview
 
 | Completed during the Hackathon | Not Completed |
 |:---:|:---:|
@@ -150,9 +155,12 @@ blank blank
 
 ## Conclusion 
 
-
+S.O.P.H.I.A. is not meant to be a surveillance system, its purely meant to enable safer living by identifying early intervention opportunities. The bulk of the difficulty in implementing S.O.P.H.I.A. lies in the developing the deep conversational model for the chatbot. Being able to identify early intervention opportunities and to steer the user toward the proper relief measure will reduce the amount of operating workload for SCDF. S.O.P.H.I.A. is a step toward transforming Singapore into a smart nation.  
 
 ### Future Work
 
-
+Developing the chatbot to ensure safe living requires advice from subject matter experts in several fields:
+1) Medical Officers: Proper advise in any injury event, identifying patterns in symptoms that may lead up to a high risk event
+2) Social Workers: How to engage the elderly, special areas to look out for when communicating with the elderly
+3) Psychologist: Identify patterns in mood swings, providing proper responses and questions to the user
 
