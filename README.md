@@ -38,7 +38,7 @@ The aim of this solution is to utlize technology:
 
 In view of the growth in the aging population, it is important that we have to create a safer household for everyone so that their needs are met and they are well supported at all times. This is especially significant in times of crises such as the current COVID-19 pandemic. During our nation's circuit breaker, social interaction is reduced and this poses a huge problem for the aging households without a next-of-kin. In such households, when a high-risk event happens it might already be too late.
 
-Our team proposes S.O.P.H.I.A., a lightweight,
+Our team proposes S.O.P.H.I.A., a fully connected infrastructure for capturing, processing and furnishing data to the relevant parties.
 
 ## Demo video
 
