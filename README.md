@@ -7,7 +7,6 @@ S.O.P.H.I.A. (Safety Officer Personalised Health Intelligence Assistant) is an r
 1. [Demo video](#demo-video)
 1. [Solution architecture](#the-architecture)
 1. [Long Description of Detailed Solution](#long-description)
-1. [Project Infographic](#project-infographic)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
@@ -55,10 +54,6 @@ Our team proposes S.O.P.H.I.A., a fully connected infrastructure for capturing, 
 ## Long description
 
 [Click here to view detailed explanation](LONGDESCRIPTION.md)
-
-## Project Infographic
-
-![Infographic](infographic.jpg)
 
 ## Getting started
 
