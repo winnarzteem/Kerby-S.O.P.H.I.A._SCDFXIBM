@@ -133,7 +133,7 @@ Any deviation from the threshold indicates an anomalous activity. The activity c
 Data will be communicated to two parties: The User and The Analytics Team.
 The two parties will see different forms of data. The User will primarily consume data in the form of the Chatbot responses, where the Chatbot will furnish relevant information retrieved from IBM Watson Discovery as a form of early assistance. The Analytics Team will monitor the readings from a particular user or a group of users.
 
-The main goal of the analytics team is to study the data and deliver insights to a
+The main goal of the analytics team is to study the data and deliver insights for improvements in the models, chatbot and crisis/pre-crisis handling procedure.
 
 ### Chatbot
 text-to-speech
