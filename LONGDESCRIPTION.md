@@ -65,7 +65,7 @@ This is where all the data from the various sources come together to be fed into
 
 ### Double Layered AI Architecture
 
-![Double Layered AI Architecture](double-layer-ai.jpg)
+![Double Layered AI Architecture](double-layer-ai.JPG)
 
 Anomaly detection models (Gas, Electricity, Water) will be implemented with a AutoEnconder Model. An example for the Eletricity utility is shown below, other utilities are similar and reserved for future work.
 Kitchen Fire Risk Model, Comprehensive NLP Model and Emergency Scoring Model will be reserved for future work.
